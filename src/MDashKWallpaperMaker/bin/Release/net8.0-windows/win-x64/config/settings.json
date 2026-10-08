@@ -1,0 +1,17 @@
+{
+  "IncludeSubfolders": true,
+  "SmartFraming": true,
+  "SquareTolerancePercent": 10,
+  "TargetResolution": "1920x1080",
+  "UpscaleFactor": 2,
+  "Waifu2x": {
+    "Model": 0,
+    "NoiseLevel": 0,
+    "Device": 0,
+    "GpuAdapter": -1,
+    "TileSize": 256,
+    "DeviceText": "Auto"
+  },
+  "LastFolder": null,
+  "LearnAutomatically": true
+}

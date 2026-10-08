@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+    <RootNamespace>MDashKWallpaperMaker</RootNamespace>
+    <AssemblyName>MDashK Wallpaper Maker</AssemblyName>
+    <Product>MDashK Wallpaper Maker</Product>
+    <AssemblyTitle>MDashK Wallpaper Maker</AssemblyTitle>
+    <Company>MDashK</Company>
+    <Copyright>MDashK</Copyright>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+
+    <!-- Major.Minor are set here; the third number is the build counter stored in BuildNumber.txt -->
+    <VersionMajorMinor>2.0</VersionMajorMinor>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\icon.ico" LogicalName="MDashKWallpaperMaker.icon.ico" />
+    <EmbeddedResource Include="Resources\icon.png" LogicalName="MDashKWallpaperMaker.icon.png" />
+    <!-- The 30 reference wallpapers the original framing calibration was made from (detections + chosen crop). -->
+    <EmbeddedResource Include="Resources\seed_history.jsonl" LogicalName="MDashKWallpaperMaker.seed_history.jsonl" />
+  </ItemGroup>
+
+  <!-- Anime detection models (deepghs, https://huggingface.co/deepghs) - kept as files next to the executable. -->
+  <ItemGroup>
+    <None Include="Models\**\*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.DirectML" Version="1.22.1" />
+  </ItemGroup>
+
+  <!--
+    Auto-increments the build number on every real compilation (not on Visual Studio design-time builds).
+    Resulting version: <VersionMajorMinor>.<BuildNumber>
+  -->
+  <Target Name="IncrementBuildNumber" BeforeTargets="GetAssemblyVersion;GenerateAssemblyInfo;CoreCompile" Condition="'$(DesignTimeBuild)' != 'true' And '$(_BuildNumberIncremented)' != 'true'">
+    <PropertyGroup>
+      <_BuildNumberFile>$(MSBuildProjectDirectory)\BuildNumber.txt</_BuildNumberFile>
+      <_OldBuildNumber>0</_OldBuildNumber>
+      <_OldBuildNumber Condition="Exists('$(_BuildNumberFile)')">$([System.IO.File]::ReadAllText('$(_BuildNumberFile)').Trim())</_OldBuildNumber>
+      <BuildNumber>$([MSBuild]::Add($(_OldBuildNumber), 1))</BuildNumber>
+      <Version>$(VersionMajorMinor).$(BuildNumber)</Version>
+      <AssemblyVersion>$(VersionMajorMinor).$(BuildNumber).0</AssemblyVersion>
+      <FileVersion>$(VersionMajorMinor).$(BuildNumber).0</FileVersion>
+      <InformationalVersion>$(VersionMajorMinor).$(BuildNumber)</InformationalVersion>
+      <_BuildNumberIncremented>true</_BuildNumberIncremented>
+    </PropertyGroup>
+    <WriteLinesToFile File="$(_BuildNumberFile)" Lines="$(BuildNumber)" Overwrite="true" />
+    <Message Importance="high" Text="MDashK Wallpaper Maker version $(Version)" />
+  </Target>
+
+</Project>
+

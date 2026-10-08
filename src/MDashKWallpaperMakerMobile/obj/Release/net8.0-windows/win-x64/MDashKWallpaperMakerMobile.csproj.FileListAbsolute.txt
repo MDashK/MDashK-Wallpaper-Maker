@@ -1,0 +1,48 @@
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\onnxruntime.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\onnxruntime_providers_shared.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\DirectML.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\DirectML.pdb
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\DirectML.Debug.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\DirectML.Debug.pdb
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\face\labels.json
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\face\model.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\face\threshold.json
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\halfbody\labels.json
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\halfbody\model.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\halfbody\threshold.json
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\head\labels.json
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\head\model.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\head\threshold.json
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\text\model.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\cunet\art\noise0_scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\cunet\art\noise1_scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\cunet\art\noise2_scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\cunet\art\noise3_scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\cunet\art\scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\noise0_scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\noise0_scale4x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\noise1_scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\noise1_scale4x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\noise2_scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\noise2_scale4x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\noise3_scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\noise3_scale4x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\scale2x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Models\waifu2x\swin_unet\art\scale4x.onnx
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\MDashK Wallpaper Maker Mobile.exe
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\MDashK Wallpaper Maker Mobile.deps.json
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\MDashK Wallpaper Maker Mobile.runtimeconfig.json
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\MDashK Wallpaper Maker Mobile.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\Microsoft.ML.OnnxRuntime.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\System.Numerics.Tensors.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\bin\Release\net8.0-windows\win-x64\onnxruntime.lib
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\MDashKWallpaperMakerMobile.csproj.AssemblyReference.cache
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\MDashKWallpaperMakerMobile.GeneratedMSBuildEditorConfig.editorconfig
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\MDashKWallpaperMakerMobile.AssemblyInfoInputs.cache
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\MDashKWallpaperMakerMobile.AssemblyInfo.cs
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\MDashKWallpaperMakerMobile.csproj.CoreCompileInputs.cache
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\MDashKWa.227A8F16.Up2Date
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\MDashK Wallpaper Maker Mobile.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\refint\MDashK Wallpaper Maker Mobile.dll
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\MDashKWallpaperMakerMobile.genruntimeconfig.cache
+E:\_MWPM\src\MDashKWallpaperMakerMobile\obj\Release\net8.0-windows\win-x64\ref\MDashK Wallpaper Maker Mobile.dll
